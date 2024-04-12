@@ -14,3 +14,7 @@ def mas_influyente(diccionario):
 #    return suma / 25
 def promedio_equipo(goles):
     return sum(goles) / 25
+
+def promedio_goleador(top_scorer):
+    return top_scorer[1][0] / 25
+    
